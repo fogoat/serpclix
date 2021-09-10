@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="favicon" rel="shortcut icon" type="image/png" href="/icons/serpclix-64.png" />
+    <title>Order List — SerpClix ClickSense</title>
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body class="orders">
+
+    <div id="serpclix_messages_app" v-cloak></div>
+    <div id="serpclix_orders_list_app" v-cloak></div>
+
+    <div class="txt">
+        <h1>INSTRUCTIONS</h1>
+        <ol type="1">
+            <li>
+                Click on the order.
+            </li>
+            <li>
+                Paste the keyword (right-click and select <code>"Paste"</code> or type <code>CTRL+V</code>) into the search box,
+                or you may type the keyword text <b>EXACTLY</b> as it appears in the order.
+            </li>
+            <li>
+                Find the highlighted URL from the order and click on it.
+                <b class="text-red">DO NOT CLICK ON ANY ADS</b>, only regular listings.
+                You may have to scroll through several pages of Google search results.
+            </li>
+            <li>
+                Once the page loads the timer will begin. <b>You must wait until the timer counts down.</b><br>
+                DO NOT leave the website and DO NOT click the Back button on your browser.
+                If you leave the website or click the Back button you will not receive credit for the order.<br>
+                DO NOT click on any ads, DO NOT leave the site, and <b>DO NOT close the tab</b>.
+            </li>
+            <li>
+                After the timer completes the tab will close automatically and you will be returned to your Order List.
+                At this point you will be credited for the order if the keyword was entered correctly.
+                Again, <b>wait for the timer to countdown</b>, then you may complete your next order.
+            </li>
+        </ol>
+
+        <p class="important">
+            <b>IMPORTANT WARNING</b><br>
+            If you click on any ads, your account will be banned.
+            If you publicly share or post on the internet any information from any of the orders you receive, including keyword text, urls or screenshots, you will be banned.
+            If you or your household use more than one account, you will be banned.
+            If you use a proxy or a vpn or in any way attempt to spoof our system you will be banned.
+            If you are banned you will lose all access to serpclix and you will not receive any credit or payment for any clicks you've already done.
+        </p>
+
+        <p class="text-center">
+            <a href="privacy_policy.html" target="_blank" rel="noopener">Privacy Policy</a>
+            |
+            <a href="https://serpclix.com/support/" target="_blank" rel="noopener">Contacts</a>
+        </p>
+
+    </div>
+
+    <div id="serpclix_hcbox_app"></div>
+
+    <!-- <script src="../js/vendor/vue.min.js"></script> -->
+    <script src="../js/vendor/vue.runtime.min.js"></script>
+    <script src="../js/vendor/browser-polyfill.min.js"></script>
+    <script src="../js/vendor/md5.min.js"></script>
+    <script src="../js/addon/settings.js"></script>
+
+    <script src="../js/addon/templates/orders.js"></script>
+    <script src="../js/addon/orders.js"></script>
+
+    <script src="../js/addon/templates/messages.js"></script>
+    <script src="../js/addon/messages.js"></script>
+
+    <script src="../js/addon/templates/hc.js"></script>
+    <script src="../js/addon/hc.js"></script>
+
+</body>
+
+</html>
