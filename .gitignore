@@ -1,6 +1,2 @@
 
-.DS_Store
-dev@serpclix.com/.DS_Store
-dev@serpclix.com/.DS_Store
-dev@serpclix.com/.DS_Store
-dev@serpclix.com/js/.DS_Store
+*.DS_Store

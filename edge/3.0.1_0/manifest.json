@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "./js/vendor/browser-polyfill.min.js", "./js/addon/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/serpclix-128.png",
+      "default_popup": "html/login.html",
+      "default_title": "SerpClix ClickSense"
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self';",
+   "description": "Internal company extension used to manage SERP click activity.",
+   "homepage_url": "https://serpclix.com/",
+   "icons": {
+      "128": "icons/serpclix-128.png",
+      "64": "icons/serpclix-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArMmqwnFVNRZ/D1etJBZf5x/CUlpMu/Upnxtuhv3fP0qbAjKFXv9Qzy3yrRTwEJ8xTG3BGM2tMMp4jeXK0FeFhsh6HAQsZhQ3o9+ZQJ7kB0xjAc4Warb6sACMUHUhIFyFWRXWiFNysOMhuTxQSJNAWN0Xl6VzzLCorFi5HRk77vI5LEtTgQxKTiWATyKKbujKB0gIpmcFvaUN0HmB2qdwSBFeYobKFDXpV23Y5/ipvbXKTPzzRvkTA8K0IPYKJg+vtaWM5BUvPOGXbAZU1Td1T3AKKAlDEitYbtqhMvxEY+GTQe1gV0q4aZjaKP19JU9g9xYxPXC56AVNCUyzNYRynQIDAQAB",
+   "manifest_version": 2,
+   "name": "SerpClix ClickSense",
+   "permissions": [ "*://*/*", "tabs", "activeTab", "storage", "notifications" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "3.0.1",
+   "version_name": "(3.0.1 chrome)",
+   "web_accessible_resources": [ "sounds/bell.ogg" ]
+}
