@@ -1,0 +1,9 @@
+<svg width="120" height="120" version="1.1" 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <image xlink:href="serpclix.svg" height="120" width="120" />
+  <rect x="40" y="0" height="60" width="60" fill="#f53333" />
+  <rect x="58" y="18" height="24" width="24" fill="#ffdd44" />
+</svg>
+
